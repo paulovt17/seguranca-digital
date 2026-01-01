@@ -1,4 +1,3 @@
-import dotenv from "dotenv";
 import { checkGoogleSafe } from "../services/googleSafe.js";
 import { checkOpenPhish } from "../services/openPhish.js";
 import { checkUrlHaus } from "../services/urlHaus.js";
