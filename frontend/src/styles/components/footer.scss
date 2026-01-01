@@ -1,0 +1,38 @@
+@use "../variables" as *;
+
+.footer {
+  margin-top: 3rem;
+  background: #0d1117;
+  color: #c9d1d9;
+  backdrop-filter: blur(6px);
+  padding: 1.2rem;
+  position: relative;
+  bottom: 0px;
+  
+
+   p {
+    margin: 0.2rem 0;
+  }
+
+  &__content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.6rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  &__copy {
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__content {
+    text-align: left;
+  }
+}
+
+

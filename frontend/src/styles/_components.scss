@@ -1,0 +1,66 @@
+@use "./variables" as *;
+
+.card {
+  background: $color-card;
+  color: $color-text;
+  border-radius: $radius;
+  box-shadow: $shadow;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 520px;
+}
+
+.button-primary {
+  background: $color-primary;
+  color: #fff;
+  border: none;
+  border-radius: $radius;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.05rem;
+  border-radius: $radius;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+}
+
+.alert {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: $radius;
+  font-size: 1.05rem;
+}
+
+.alert.success {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.alert.warning {
+  background: #fffde7;
+  color: #f9a825;
+}
+
+.alert.danger {
+  background: #fdecea;
+  color: #c62828;
+}
+
+.header,
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.tips ul {
+  padding-left: 1.2rem;
+}

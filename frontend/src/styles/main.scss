@@ -1,0 +1,11 @@
+@use "./variables";
+@use "./base";
+@use "./layout";
+
+/* Componentes */
+@use "./components/header";
+@use "./components/footer";
+@use "./components/url-form";
+@use "./components/result-alert";
+@use "./components/tips";
+@use "./components/progress";

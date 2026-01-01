@@ -1,0 +1,45 @@
+@use "../variables" as *;
+
+.header {
+  background: linear-gradient(135deg, #1a237e, #3949ab);
+  color: #fff;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border: black solid 1px;
+
+  img{
+    height: 5rem;
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+  }
+
+  
+
+  h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+  }
+
+  p {
+    opacity: 0.9;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    img{
+    position: initial;
+    }
+  }
+
+  @media (max-width: 700px) {
+    img{
+    position: initial;
+  }
+  }
+}

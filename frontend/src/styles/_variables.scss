@@ -1,0 +1,26 @@
+$font-main: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+/* Cores principais */
+$color-primary: #2563eb; // azul moderno
+$color-secondary: #0f172a; // azul escuro
+$color-bg-light: #f8fafc;
+$color-text: #0f172a;       // Azul escuro (slate-900)
+$color-text-light: #f8fafc; // Branco suave
+
+/* Estados */
+$color-success: #16a34a;
+$color-warning: #f59e0b;
+$color-danger: #dc2626;
+
+/* UI */
+$color-card: rgba(248, 250, 252, 0.95);
+$radius: 14px;
+$shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+/* Gradiente */
+$bg-gradient: linear-gradient(
+  135deg,
+  #020617,   // quase preto azulado (segurança)
+  #0f172a,   // slate escuro
+  #1e293b    // slate médio
+);
