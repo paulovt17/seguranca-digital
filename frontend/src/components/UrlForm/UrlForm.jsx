@@ -58,7 +58,7 @@ function UrlForm() {
     startFakeProgress();
 
     try {
-      await delay(5000);
+      await delay(3000);
       setStep("🧠 Analisando padrões suspeitos...");
 
       const response = await checkUrlSecurity(url);
